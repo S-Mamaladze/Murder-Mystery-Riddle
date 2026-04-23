@@ -1,6 +1,6 @@
-## Technical Report: SQL Implementation & Challenges
+# Technical Report: SQL Implementation & Challenges
 
-# 1. Data Schema & Types
+## 1. Data Schema & Types
 
 During the migration to SQL Server (SSMS), I encountered several data integrity challenges:
 
@@ -8,7 +8,7 @@ ID Overflow: The person_id and ssn fields required BIGINT or INT rather than SMA
 
 String Truncation: Street names and event names were imported as NVARCHAR(MAX) to ensure no descriptive data was lost during the transition from the CSV source.
 
-# 2. Query Optimization
+## 2. Query Optimization
 
 While the investigation was performed sequentially, the final production query was optimized using Common Table Expressions (CTEs).
 
@@ -18,7 +18,7 @@ Readability: Logic is separated into "Clues" and "Results," making it easier for
 
 Maintainability: If the gym database schema changes, only the Hitman_Clues block needs updating.
 
-# 3. Environment Details
+## 3. Environment Details
 
 Database Engine: Microsoft SQL Server 2022
 
