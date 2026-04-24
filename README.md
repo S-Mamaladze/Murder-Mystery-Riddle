@@ -3,6 +3,17 @@
 ## Project Overview
 This project is a technical walkthrough of the "SQL Murder Mystery." Using Microsoft SQL Server Management Studio (SSMS), I acted as a data detective to identify a murderer and the mastermind behind the crime. The project demonstrates the ability to navigate complex relational databases, handle data type constraints, and write high-level analytical queries.
 
+## 💡 Why I Built This
+While many beginners solve the SQL Murder Mystery using the provided web terminal, I chose to treat this as a professional database migration and analysis exercise.
+
+I built this project to demonstrate:
+
+End-to-End Ownership: Moving beyond simple querying to handle the full lifecycle—from data ingestion and schema troubleshooting to final reporting.
+
+Technical Adaptability: Proving I can work within a professional-grade environment like Microsoft SQL Server (SSMS), which requires stricter data typing and more rigorous error handling than basic SQLite environments.
+
+Production-Ready Logic: Moving from exploratory "one-off" queries to refactored, modular code using CTEs, showcasing a mindset focused on code maintainability and readability for a BI team.
+
 # Technical Skills Demonstrated
 Data Migration & Wrangling: Migrated data from SQLite/CSV into SQL Server via Google Sheets.
 
